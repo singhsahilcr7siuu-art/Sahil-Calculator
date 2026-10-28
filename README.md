@@ -11,10 +11,6 @@ A clean, simple calculator that performs basic arithmetic operations right in yo
 - Responsive design that works on desktop and mobile
 - Keyboard support
 
-##  Demo
-
-[Live Demo](https://your-username.github.io/calculator/)
-
 ##  Built With
 
 - HTML5
@@ -72,9 +68,7 @@ Contributions are welcome!
 4. Push to the branch (`git push origin feature/new-feature`)
 5. Open a Pull Request
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Author
 
