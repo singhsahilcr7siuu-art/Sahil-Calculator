@@ -21,7 +21,7 @@ A clean, simple calculator that performs basic arithmetic operations right in yo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/calculator.git
+   git clone https://github.com/singhsahilcr7siuu-art/calculator.git
    ```
 2. Navigate into the project folder:
    ```bash
