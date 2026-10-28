@@ -1,77 +1,79 @@
 # Sahil-Calculator
-# Calculator
+# Python Calculator
 
-A clean, simple calculator that performs basic arithmetic operations right in your browser.
+A simple command-line calculator written in Python that performs basic arithmetic operations.
 
-##  Features
+## Features
 
 - Addition, subtraction, multiplication, and division
-- Decimal number support
-- Clear (C) and delete (⌫) buttons
-- Responsive design that works on desktop and mobile
-- Keyboard support
+- Works with whole numbers and decimals
+- Handles errors such as division by zero and invalid input
+- Runs in a loop so you can do multiple calculations
+- No external libraries required
 
-##  Built With
+## Requirements
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
+- Python 3.6 or higher
+
+Check your version:
+
+```bash
+python --version
+```
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/singhsahilcr7siuu-art/calculator.git
+   git clone https://github.com/your-username/python-calculator.git
    ```
-2. Navigate into the project folder:
+2. Go into the project folder:
    ```bash
-   cd calculator
+   cd python-calculator
    ```
-3. Open `index.html` in your browser.
 
-No dependencies or build steps required.
+## How to Run
 
-##  Usage
+```bash
+python calculator.py
+```
 
-1. Click the number buttons or use your keyboard to enter numbers.
-2. Choose an operator (`+`, `-`, `×`, `÷`).
-3. Press `=` or `Enter` to see the result.
-4. Press `C` or `Esc` to clear.
+On some systems, use `python3` instead:
 
-### Keyboard Shortcuts
+```bash
+python3 calculator.py
+```
 
-| Key | Action |
-|-----|--------|
-| `0-9` | Enter digits |
-| `+ - * /` | Operators |
-| `Enter` or `=` | Calculate |
-| `Backspace` | Delete last digit |
-| `Esc` | Clear all |
+## Usage
+
+```
+Select operation:
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Exit
+
+Enter choice (1-5): 1
+Enter first number: 10
+Enter second number: 5
+Result: 10 + 5 = 15
+```
 
 ## Project Structure
 
 ```
-calculator/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+python-calculator/
+├── calculator.py
+├── README.md
+└── README.txt
 ```
 
 ## Contributing
-
-Contributions are welcome!
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/new-feature`)
 3. Commit your changes (`git commit -m "Add new feature"`)
 4. Push to the branch (`git push origin feature/new-feature`)
 5. Open a Pull Request
-
-
-
-## Author
-
-**Sahil Singh**
-- GitHub: [singhsahilcr7siuu-art](https://github.com/singhsahilcr7siuu-art)
 
